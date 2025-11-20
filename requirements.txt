@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+mediapipe
+numpy
+pandas
+librosa
+soundfile
+matplotlib
+scikit-learn
+moviepy
