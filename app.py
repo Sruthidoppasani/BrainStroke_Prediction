@@ -1,18 +1,3 @@
-# app.py
-# FAST-Eye Prototype — full updated file
-# Features:
-# - Full-width (wide) layout
-# - Increased gap between columns
-# - CSS styling for spacing and medium-size uploaded images
-# - Robust audio loader (librosa + soundfile fallback)
-# - Silent skip when audio can't be processed (no warning)
-# - Symptom prediction with colored HTML boxes
-# - Video frame extraction using OpenCV (no moviepy)
-#
-# Run:
-# conda activate fasteye
-# python -m streamlit run app.py
-
 import streamlit as st
 import cv2
 import numpy as np
@@ -559,3 +544,4 @@ with right:
 
 st.write("---")
 st.caption("FAST-Eye Prototype with symptom chat — NOT clinically validated. For demo/presentation use only. Always contact professional medical services for emergencies.")
+
